@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Étudiant Plus | Le n°1 du Job Étudiant au Maroc</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+        .jep-blue { color: #003366; }
+        .bg-jep { background-color: #003366; }
+        .card-hover { transition: all 0.4s ease; }
+        .card-hover:hover { transform: translateY(-10px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); }
+        .gradient-text { background: linear-gradient(45deg, #003366, #f97316); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="bg-slate-50 font-sans text-gray-900">
+
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm px-6 py-4 flex justify-between items-center">
+        <div class="flex items-center gap-3">
+            <img src="logo.jpg" alt="Logo" class="h-10 w-10 rounded-full border-2 border-orange-500">
+            <span class="font-black jep-blue uppercase tracking-tighter text-xl">Job Étudiant <span class="text-orange-500">Plus</span></span>
+        </div>
+        <div class="hidden md:flex space-x-8 font-bold jep-blue text-sm">
+            <a href="#propos" class="hover:text-orange-500 transition">À PROPOS</a>
+            <a href="#offres" class="hover:text-orange-500 transition">NOS OFFRES</a>
+            <a href="#contact" class="hover:text-orange-500 transition border-2 border-orange-500 px-4 py-1 rounded-full">REJOIGNEZ-NOUS</a>
+        </div>
+    </nav>
+
+    <section class="pt-32 pb-16 px-6 max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2 space-y-6">
+                <h1 class="text-4xl md:text-6xl font-black jep-blue leading-none">VOTRE AVENIR <br><span class="gradient-text text-5xl md:text-7xl underline">COMMENCE ICI.</span></h1>
+                <p class="text-xl text-gray-600 font-medium italic">Le premier réseau d'insertion professionnelle pour les étudiants à Casablanca-Settat et partout au Maroc.</p>
+                <div class="flex gap-4">
+                    <a href="#offres" class="bg-orange-500 text-white px-8 py-4 rounded-xl font-bold hover:bg-orange-600 transition shadow-lg shadow-orange-200">Voir les jobs</a>
+                    <a href="#contact" class="bg-jep text-white px-8 py-4 rounded-xl font-bold hover:opacity-90 transition shadow-lg shadow-blue-200">Nous contacter</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 rounded-3xl overflow-hidden shadow-2xl rotate-2 hover:rotate-0 transition duration-500">
+                <img src="hero.jpg" alt="Equipe Job Etudiant Plus" class="w-full">
+            </div>
+        </div>
+    </section>
+
+    <section id="propos" class="py-20 bg-white border-y border-gray-100">
+        <div class="max-w-4xl mx-auto px-6 text-center space-y-8">
+            <span class="text-orange-500 font-black tracking-[0.3em] uppercase text-sm">#StudentPower</span>
+            <h2 class="text-3xl md:text-4xl font-black jep-blue">Propulsez votre carrière pendant vos études</h2>
+            <p class="text-lg text-gray-700 leading-relaxed italic">
+                <strong>Job Étudiant Plus</strong> est la plateforme de référence à <strong>Casablanca-Settat</strong> dédiée à l'insertion professionnelle des jeunes. Nous connectons les talents de demain à des <strong>jobs étudiants</strong>, des <strong>stages rémunérés</strong> et des <strong>missions freelance</strong> sur mesure. Notre mission : vous permettre de cumuler une <strong>expérience</strong> précieuse et un <strong>revenu</strong> stable tout en poursuivant vos études au Maroc.
+            </p>
+        </div>
+    </section>
+
+    <section class="py-20 px-6 max-w-7xl mx-auto">
+        <h2 class="text-center font-black jep-blue text-3xl mb-16 uppercase">Types de postes populaires</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div class="bg-white p-4 rounded-3xl shadow-sm border border-gray-100 card-hover">
+                <img src="marketing.jpg" class="rounded-2xl h-48 w-full object-cover mb-4">
+                <h3 class="font-bold text-lg jep-blue">Marketing Digital</h3>
+                <p class="text-orange-500 font-black text-sm uppercase">Env. 3500 DH/mois</p>
+            </div>
+            <div class="bg-white p-4 rounded-3xl shadow-sm border border-gray-100 card-hover">
+                <img src="vendeur.jpg" class="rounded-2xl h-48 w-full object-cover mb-4">
+                <h3 class="font-bold text-lg jep-blue">Vendeur Boutique</h3>
+                <p class="text-orange-500 font-black text-sm uppercase">Env. 3000 DH/mois</p>
+            </div>
+            <div class="bg-white p-4 rounded-3xl shadow-sm border border-gray-100 card-hover">
+                <img src="professeur.jpg" class="rounded-2xl h-48 w-full object-cover mb-4">
+                <h3 class="font-bold text-lg jep-blue">Soutien Scolaire</h3>
+                <p class="text-orange-500 font-black text-sm uppercase">Dès 100 DH/heure</p>
+            </div>
+            <div class="bg-white p-4 rounded-3xl shadow-sm border border-gray-100 card-hover">
+                <img src="livreur.jpg" class="rounded-2xl h-48 w-full object-cover mb-4">
+                <h3 class="font-bold text-lg jep-blue">Livreur</h3>
+                <p class="text-orange-500 font-black text-sm uppercase">Payé à la mission</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="offres" class="py-20 bg-slate-900 text-white rounded-[3rem] mx-4 md:mx-10 my-20 px-6">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-black mb-4 uppercase italic">Dernières Opportunités</h2>
+                <div class="w-24 h-2 bg-orange-500 mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid gap-6 mb-20">
+                <div class="bg-white/10 p-6 rounded-2xl flex flex-col md:flex-row justify-between items-center border border-white/10">
+                    <div>
+                        <h4 class="text-2xl font-bold text-orange-400">Stage Développeur Web Junior</h4>
+                        <p class="text-gray-300 italic">TechSolutions Maroc • Casablanca</p>
+                    </div>
+                    <span class="text-2xl font-black mt-4 md:mt-0">3000 DH/mois</span>
+                </div>
+                <div class="bg-white/10 p-6 rounded-2xl flex flex-col md:flex-row justify-between items-center border border-white/10">
+                    <div>
+                        <h4 class="text-2xl font-bold text-orange-400">Mission Freelance : Traducteur (Fr/Ar)</h4>
+                        <p class="text-gray-300 italic">GlobalCom • En ligne</p>
+                    </div>
+                    <span class="text-2xl font-black mt-4 md:mt-0">150 DH/heure</span>
+                </div>
+                <div class="bg-white/10 p-6 rounded-2xl flex flex-col md:flex-row justify-between items-center border border-white/10">
+                    <div>
+                        <h4 class="text-2xl font-bold text-orange-400">Job Étudiant : Barista à Temps Partiel</h4>
+                        <p class="text-gray-300 italic">Café des Arts • Rabat</p>
+                    </div>
+                    <span class="text-2xl font-black mt-4 md:mt-0 text-center">2500 DH/mois</span>
+                </div>
+            </div>
+
+            <div class="text-center space-y-8">
+                <p class="text-xl font-bold">Prêt(e) à postuler ?</p>
+                <a href="mailto:Jobetudiantplus@gmail.com" class="bg-white text-[#003366] px-12 py-5 rounded-2xl font-black text-xl hover:bg-orange-500 hover:text-white transition inline-block shadow-2xl">
+                   <i class="fas fa-paper-plane mr-3"></i> POSTULER MAINTENANT
+                </a>
+                <p class="text-sm opacity-60">Envoyez votre CV à : Jobetudiantplus@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-white pt-20 pb-10 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-10 mb-16">
+                <div class="text-center md:text-left">
+                    <h3 class="text-2xl font-black jep-blue mb-4">REJOIGNEZ LA COMMUNAUTÉ</h3>
+                    <p class="text-gray-500 font-medium italic italic">Ne ratez plus aucune opportunité au Maroc.</p>
+                </div>
+                <div class="flex gap-6 text-4xl">
+                    <a href="https://www.instagram.com/jobetudiantplus_maroc?igsh=aWoyNHN0dnd4ZDMw&utm_source=qr" target="_blank" class="text-pink-600 hover:scale-125 transition duration-300"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@jobetudiantplus?_r=1&_t=ZS-944rFjlWfSP" target="_blank" class="text-black hover:scale-125 transition duration-300"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61585559188360" target="_blank" class="text-blue-700 hover:scale-125 transition duration-300"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/job-etudiant-plus-b554b23b2/" target="_blank" class="text-blue-500 hover:scale-125 transition duration-300"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            
+            <div class="text-center border-t pt-10 text-gray-400 text-sm">
+                <p class="font-bold mb-2">📍 Casablanca-Settat, Maroc</p>
+                <p>© 2026 Job Étudiant Plus - Propulsé par #StudentPower</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
